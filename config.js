@@ -4,7 +4,7 @@ export const Yourweblink = {
 };
 
 // Add your website name eg. "0xcheth"
-export const Yourwebname = "Insert the name you want for header";
+export const Yourwebname = "Your site";
 
 // Add your full name/brand eg. John Doe
 export const Yourname = "Insert your name here";
