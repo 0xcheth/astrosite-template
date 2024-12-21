@@ -1,5 +1,7 @@
 // Add your website or pages link eg. 'https://username.github.io'
-export const Yourweblink = 'https://0xcheth.github.io'; 
+export const Yourweblink = {
+    SiteURL:'https://0xcheth.github.io',
+};
 
 // Add your website name eg. "0xcheth"
 export const Yourwebname = "Insert the name you want for header";
