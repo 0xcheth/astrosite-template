@@ -2,6 +2,7 @@
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
 import { Yourlinkedin } from '../../config.js';
+
 ---
 
 <header>
@@ -13,12 +14,7 @@ import { Yourlinkedin } from '../../config.js';
 	  <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation">☰</label>
   
 	  <!-- Normal navigation visible in large displays -->
-	  <div class="social-links">
-		<HeaderLink href="/">Home</HeaderLink>
-		<HeaderLink href="/resume">Resume</HeaderLink>
-		<HeaderLink href="/blog">Blog</HeaderLink>
-	  </div>
-  
+	  
 	  <!-- Internal Links (hidden by default on smaller screens) -->
 	  <div id="menu" class="internal-links">
 		<HeaderLink href="/">Home</HeaderLink>
@@ -68,22 +64,19 @@ import { Yourlinkedin } from '../../config.js';
 		  align-items: center;
 		  overflow-y: auto;
 		  z-index: 10; 
-		  background-color: rgba(255, 255, 255, 0.96); 
+		  
 		}
 		.hamburger-checkbox:checked ~ .internal-links {
       		display: flex;
 		}
 		.internal-links a {
-		  color: #333;
 		  text-decoration: none;
 		  padding: 5px;
 		  margin: 5px 0;
-		  background-color: transparent;
+		  border-bottom-style: none;
 		  border-radius: 5px;
 		}
-		.internal-links a:hover {
-		  background-color: transparent;
-		}
+		
 		@media (min-width: 720px) {
 		  .hamburger {
 			display: flex;
@@ -104,11 +97,8 @@ import { Yourlinkedin } from '../../config.js';
     	  }
 
     	  .internal-links {
-      		display: none; 
-          }
-    	  .social-links {
       		display: flex; 
-		  }
+         
 		}
 	</style>
 </header>
@@ -117,7 +107,6 @@ import { Yourlinkedin } from '../../config.js';
 		display: block;
 		margin: 0em;
 		padding: 0em 1em;
-		background: white;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
 	}
 	h2 {

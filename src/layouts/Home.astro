@@ -5,6 +5,11 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
+import { Themecolors } from '../../config.js';
+
+const themeStyles = Object.entries(Themecolors)
+    .map(([key, value]) => `--${key}: ${value};`)
+    .join('\n');
 
 
 ---
@@ -32,3 +37,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<Footer />
 	</body>
 </html>
+
+<style>
+    :root {
+        {themeStyles}
+    }
+</style>
