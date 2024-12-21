@@ -1,3 +1,9 @@
+// Add your website or pages link eg. "https://username.github.io"
+export const Yourweblink = "Insert your website link here"; 
+
+// Add your website name eg. "0xcheth"
+export const Yourwebname = "Insert the name you want for header";
+
 // Add your full name/brand eg. John Doe
 export const Yourname = "Insert your name here";
 
