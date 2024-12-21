@@ -9,7 +9,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: Yourweblink.SiteURL,
 	integrations: [mdx(), sitemap()],
-	base: '/', // For root-level deployment
+	base: '/subpath/', // For root-level deployment
 
 });
 

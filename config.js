@@ -1,6 +1,6 @@
 // Add your website or pages link eg. 'https://username.github.io'
 export const Yourweblink = {
-    SiteURL:'https://0xcheth.github.io/astrosite-template',
+    SiteURL:'https://template.0xcheth.dev/',
 };
 
 // Add your website name eg. "0xcheth"
