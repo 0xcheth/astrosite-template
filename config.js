@@ -41,28 +41,28 @@ export const Yourgithub = "https://github.com/0xcheth/";
 
 export const Themecolors = {
 
-    HeaderBg: "white", // Background color for the header
+    HeaderBg: "#2C2F33", // Background color for the header
 
-    MainBg: "white", // Background color for the main body
+    MainBg: "#1E2124", // Background color for the main body
 
-    HeaderText: "auto", // Text color for the headers
+    HeaderText: "#FFFFFF", // Text color for the headers
 
-    MobileNav: "auto", // Background color for the mobile navigation menu
+    MobileNav: "#2C2F33", // Background color for the mobile navigation menu
 
-    MobileNavBtn: "auto", // Text color for the mobile navigation buttons
+    MobileNavBtn: "transparent", // Text color for the mobile navigation buttons
 
-    NavBtnHover: "auto", // Text color for the mobile navigation buttons
+    NavBtnHover: "#7289DA", // Text color for the mobile navigation buttons
 
-    HeadingstxtCl: "blue", // Text color for the headings
+    HeadingstxtCl: "#FFFFFF", // Text color for the headings
 
-    BodytextCl: "green", // Text color for the body text
+    BodytextCl: "#99AAB5", // Text color for the body text
 
-    ListCl: "orange", // Text color for the list
+    ListCl: "lightgrey", // Text color for the list
 
-    HyperlinkCl: "magenta", // Text color for the hyperlinks
+    HyperlinkCl: "#7289DA", // Text color for the hyperlinks
 
-    HyperlinkClHover: "blue", // Text color for the hyperlinks on hover
+    HyperlinkClHover: "#5865F2", // Text color for the hyperlinks on hover
 
-    CodeBlockBg: "auto", // Background color for the code blocks
+    CodeBlockBg: "#2C2F33", // Background color for the code blocks
 
 };

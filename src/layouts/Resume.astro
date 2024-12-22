@@ -16,11 +16,14 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header />
 		<main>
-			
-			<slot/>
+				<div class='box'>
+					<div class='leftbox'>
 
+						<slot/>
+
+				</div>
+			</div>
 		</main>
-			
 		<Footer />
 	</body>
 </html>

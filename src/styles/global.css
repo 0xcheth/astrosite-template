@@ -35,6 +35,10 @@ html {
 	background-color: var(--NavBtnHover);
 }
 
+.internal-links a.active {
+	background-color: var(--NavBtnHover);
+}
+
 /* Header color */
 
 header {
@@ -93,6 +97,8 @@ figcaption {
 
 /* Background color for blockquotes */
 
+
+
 code {
 	padding: 2px 5px;
 	background-color: var(--CodeBlockBg);
@@ -101,13 +107,64 @@ code {
 
 /* Background color section end */
 
-.container {
+/* */
+/* */
+/* */ /* Flex Boxes */
+/* */
+/* */
+
+.box {
+	background-color: transparent;
+	border-radius: 1em;
+	box-shadow: 0 2px 8px rgba(var(--black), 100%);
+	width: 90%;
+	max-width: calc(100% - 6em);
+	margin: 2em 0em;
+	padding: 2em 2em;
+}
+
+.colorbox {
+	
+	background-color: var(--HeaderBg);
+	border-radius: 1em;
+	box-shadow: var(--box-shadow);
+	width: 90%;
+	max-width: calc(100% - 6em);
+	margin: 2em 0em;
+	padding: 2em 2em;
+
+}
+
+.leftbox {
+	display: flex;
+	justify-content: left; /* Center horizontally */
+	align-items: left; /* Center vertically */
+	text-align: left; /* Center-align the text itself */
+	flex-direction: column;
+}
+
+.rowbox {
+	display: flex;
+	justify-content: space-between; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	text-align: center; /* Center-align the text itself */
+	flex-direction: row;
+}
+
+.centerbox {
 	display: flex;
 	justify-content: center; /* Center horizontally */
 	align-items: center; /* Center vertically */
 	text-align: center; /* Center-align the text itself */
 	flex-direction: column;
 }  
+
+/* */
+/* */
+/* */ /* Flex Boxes END */
+/* */
+/* */
+
 @font-face {
 	font-family: 'Atkinson';
 	src: url('/fonts/atkinson-regular.woff') format('woff');
@@ -126,8 +183,7 @@ body {
 	font-family: 'Atkinson', sans-serif;
 	margin: 0;
 	padding: 0;
-	text-align: left;
-	background: linear-gradient(grey) no-repeat;
+	text-align: center;
 	background-size: 100% 600px;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
@@ -136,10 +192,10 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
+	width: 90%;
 	max-width: calc(100% - 2em);
 	margin: auto;
-	padding: 3em 1em;
+	padding: 2em 1em;
 }
 
 h1 {
@@ -212,7 +268,7 @@ hr {
 	main {
 		padding: 1em;
 	}
-	.container {
+	.centerbox {
         display: flex;
         justify-content: center; /* Center horizontally */
         align-items: center; /* Center vertically */
@@ -246,16 +302,16 @@ hr {
 
 /* Appended Theme Variables */
 :root {
-  --HeaderBg: white;
-  --MainBg: white;
-  --HeaderText: auto;
-  --MobileNav: auto;
-  --MobileNavBtn: auto;
-  --NavBtnHover: auto;
-  --HeadingstxtCl: blue;
-  --BodytextCl: green;
-  --ListCl: orange;
-  --HyperlinkCl: magenta;
-  --HyperlinkClHover: blue;
-  --CodeBlockBg: auto;
+  --HeaderBg: #2C2F33;
+  --MainBg: #1E2124;
+  --HeaderText: #FFFFFF;
+  --MobileNav: #2C2F33;
+  --MobileNavBtn: transparent;
+  --NavBtnHover: #7289DA;
+  --HeadingstxtCl: #FFFFFF;
+  --BodytextCl: #99AAB5;
+  --ListCl: lightgrey;
+  --HyperlinkCl: #7289DA;
+  --HyperlinkClHover: #5865F2;
+  --CodeBlockBg: #2C2F33;
 }
