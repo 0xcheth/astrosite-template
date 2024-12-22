@@ -1,4 +1,4 @@
-//
+// run "node scripts/AppendTheme.js" to apply the changes
 //
 //
 // Social and minor website details
@@ -41,27 +41,27 @@ export const Yourgithub = "https://github.com/0xcheth/";
 
 export const Themecolors = {
 
-    HeaderBg: "#2C2F33", // Background color for the header
+    HeaderBg: "#FFFFFF", // Background color for the header
 
-    MainBg: "#1E2124", // Background color for the main body
+    MainBg: "#FFFFFF", // Background color for the main body
 
-    HeaderText: "#FFFFFF", // Text color for the headers
+    HeaderText: "black", // Text color for the headers
 
     MobileNav: "#2C2F33", // Background color for the mobile navigation menu
 
     MobileNavBtn: "transparent", // Text color for the mobile navigation buttons
 
-    NavBtnHover: "#7289DA", // Text color for the mobile navigation buttons
+    NavBtnHover: "orange", // Text color for the mobile navigation buttons
 
-    HeadingstxtCl: "#FFFFFF", // Text color for the headings
+    HeadingstxtCl: "black", // Text color for the headings
 
-    BodytextCl: "#99AAB5", // Text color for the body text
+    BodytextCl: "black", // Text color for the body text
 
-    ListCl: "lightgrey", // Text color for the list
+    ListCl: "black", // Text color for the list
 
-    HyperlinkCl: "#7289DA", // Text color for the hyperlinks
+    HyperlinkCl: "blue", // Text color for the hyperlinks
 
-    HyperlinkClHover: "#5865F2", // Text color for the hyperlinks on hover
+    HyperlinkClHover: "darkorange", // Text color for the hyperlinks on hover
 
     CodeBlockBg: "#2C2F33", // Background color for the code blocks
 

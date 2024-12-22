@@ -302,16 +302,16 @@ hr {
 
 /* Appended Theme Variables */
 :root {
-  --HeaderBg: #2C2F33;
-  --MainBg: #1E2124;
-  --HeaderText: #FFFFFF;
+  --HeaderBg: #FFFFFF;
+  --MainBg: #FFFFFF;
+  --HeaderText: black;
   --MobileNav: #2C2F33;
   --MobileNavBtn: transparent;
-  --NavBtnHover: #7289DA;
-  --HeadingstxtCl: #FFFFFF;
-  --BodytextCl: #99AAB5;
-  --ListCl: lightgrey;
-  --HyperlinkCl: #7289DA;
-  --HyperlinkClHover: #5865F2;
+  --NavBtnHover: orange;
+  --HeadingstxtCl: black;
+  --BodytextCl: black;
+  --ListCl: black;
+  --HyperlinkCl: blue;
+  --HyperlinkClHover: darkorange;
   --CodeBlockBg: #2C2F33;
 }
