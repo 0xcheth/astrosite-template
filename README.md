@@ -56,5 +56,5 @@ It centers text or images!
 
 It puts things in a single row! Great if you want to display multiple images.
 ```
-#### Note:
-any help is appreciated in future development!
+
+### Get started! Fork This repo today!
