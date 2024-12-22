@@ -3,4 +3,4 @@
 import { Yourwebname } from '../config.js';
 
 export const SITE_TITLE = Yourwebname;
-export const SITE_DESCRIPTION = 'Online portfolio for Chethaka Ladduwahetty and blog/website';
+export const SITE_DESCRIPTION = 'Cheths epic astrosite template';
