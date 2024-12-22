@@ -16,6 +16,8 @@ Currently building using [Astro](https://astro.build/) but I have plans to integ
 - **config.js** Centralised infrustructure for changing minor global variables and background colors. Just replace hex or rgba color codes in whichever specified field in the config file located at root level.
 
 ## Usage:
+
+### find the full guide [here](https://template.0xcheth.dev/blog/about-this-site/)
 First, make sure to drop in all the required variables (name, socials, etc.) into the config.js file. The rest is just plain Markdown however there are a few added styling commands you can use.
 
 ### Special Styling-
