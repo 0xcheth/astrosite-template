@@ -1,17 +1,23 @@
-# ![icon128](https://github.com/user-attachments/assets/363dcd48-8354-4f49-8bed-604cccd87f2d) 
 
-### Introduction:
-Currently building using [Astro](https://astro.build/) but I have plans to integrate selfhosted [Tina](https://tina.io/) or something similar from scratch but before that I just want to clean up the code so I can use MD for everything!
+ 
+<a href="https://ko-fi.com/0xcheth/" target="_blank">
+  <img src="https://github.com/user-attachments/assets/05f86ab7-f337-4897-8213-de52f682cbba" alt="Support me on Ko-fi">
+</a> 
 
-![sample](https://github.com/user-attachments/assets/451117d0-6e38-4c11-8fdc-19d3ad02ab6c)
+# Che's Epic Astro website template!!
 
-### Features so far:
+![2](https://github.com/user-attachments/assets/ed86b3d4-2cec-4ad4-94ae-1a169f80329b)
+
+#### link to featured website <a href="https://0xcheth.com/">here</a> built wholely from Che's Epic Web template
+# Features:
 
 - ***Minimal code*** required to set up content on the site. Just upload/edit .md or .md files based on how far you want to cusomize css styling in-line.
+
+- change any color on the website from one place!
   
 - Web assets text and links to socials can be changed from one place.
 
-- Drop in your social links and it
+- Drop in your social links an in the config file to make it show up on all footer sections!
 
 - **config.js** Centralised infrustructure for changing minor global variables and background colors. Just replace hex or rgba color codes in whichever specified field in the config file located at root level.
 
