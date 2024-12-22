@@ -15,7 +15,7 @@ export const Yourweblink = {
 export const Yourpathtype = "/"  //'/' For root-level deployment, '/subpath/' for deployment in a subpath
 
 // Add your website name eg. "0xcheth"
-export const Yourwebname = "0xcheth";
+export const Yourwebname = "0xcheth.astro"
 
 // Add your full name/brand for copyright statement eg. John Doe
 export const Yourname = "0xcheth";
